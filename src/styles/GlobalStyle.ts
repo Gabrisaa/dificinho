@@ -24,3 +24,6 @@ export const colors = {
   white: "#fff",
   black: "#000"
 }
+export const vars = {
+  size_side_bar:"80px"
+}

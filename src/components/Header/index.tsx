@@ -1,29 +1,30 @@
 import * as S from "./styles"
 import config from "../../assets/image 1.png"
 import linha from "../../assets/Line 7.png"
+import Lupa from "../../assets/image 2.png"
 
 export function Header() {
     return (
         <S.Header>
+            <img src={Lupa} alt="Lupola" />
+       <div id="divBusca">
+            <input type="text" id="txtBusca" placeholder="Buscar..." />
+
+        </div>
 
             <S.NavBar>
                 <ul className="header">
                     <li>
-                        <a href="/Formas de ajuda ">Formas de Ajuda</a>
+                        <a href="/FormasDeAjuda">Formas de Ajuda</a>
                     </li>
 
                     <li>
-                        <a href="/Relatos">Relatos</a>
+                        <a href="/">Página Inicial</a>
                     </li>
 
                 </ul>
             </S.NavBar>
 
-            <div>
-                <a className="lili">
-                    <img src={linha} alt="pipi" />
-                </a>
-            </div>
                 <a className="engrenagem" href="https://instagram.com/gabrielaa.vilelaa" target="_blank">
                     <img src={config} alt="engrenagem de configuração" />
                 </a>
