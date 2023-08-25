@@ -6,8 +6,9 @@ export const Header = styled.header`
   background-color:none;
   border-bottom: none;
   display: flex;
-  height: 3rem;
+  height: 4.3rem;
   width: 100%;
+  border-bottom: 0.4rem solid black;
   picture {
     margin-left: 0.5rem;
     padding: 0.5rem;
@@ -18,7 +19,6 @@ export const Header = styled.header`
   }
   img{
     width:50px;
-    
   }
   nav ul{
     padding-top: 1rem;
@@ -40,23 +40,27 @@ export const Header = styled.header`
   
        
 }
-#ari{
-width: 40px;
-}
 .lili{
     display: flex;
+    width: 4px;
+    padding-left: 7.5rem;
     img{
     width: 4px;
-    height: 50px;
+    height: 65px;
     }
 }
 .engrenagem{
   display: flex;
-  margin-left: 6rem;
+  padding-left: 5rem;
   img{
     width: 60px;
     height: 60px;
   }
+}
+
+div {
+  width:3rem;
+
 }
 
 `
