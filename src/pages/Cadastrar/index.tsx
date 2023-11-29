@@ -1,12 +1,12 @@
 import { FormEvent, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { FaKey } from "../../assets/cadeado.png";
-import { BsFillPersonFill } from "../../assets/queridinha.png";
-import { MdEmail } from "../../assets/envelope.png";
+import { FaKey } from "react-icons/fa";
+import { BsFillPersonFill } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
 import { toast } from "react-toastify";
 
 import * as S from "./styles";
-import { IErrorResponse, IUser } from "../../interfaces/user.interface";
+import { IErrorResponse, IUser } from "../../interface/user.interface";
 import { AxiosError } from "axios";
 import { apiUser } from "../../services/data";
 

@@ -1,6 +1,5 @@
 import * as S from "./styles"
 import config from "../../assets/image 1.png"
-import linha from "../../assets/Line 7.png"
 import Lupa from "../../assets/image 2.png"
 
 export function Header() {

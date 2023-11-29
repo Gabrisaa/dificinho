@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { colors } from "../../styles/GlobalStyle"
 export const Section = styled.section`
 width: 50%;
 padding-top: 1.5rem;

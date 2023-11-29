@@ -1,10 +1,10 @@
 import {
     IAuthContextData, IAuthProvider,
     IResponseUser, IUser
-  } from '../interfaces/user.interface'
+  } from '../interface/user.interface'
   import React, { createContext, useState, useCallback } from 'react'
   import api from '../services/api'
-  import { apiUser } from '../services/data'
+  import { apiUser } from '../services/dados'
   import { isAfter, parseISO } from 'date-fns'
   import { useNavigate } from 'react-router-dom'
   

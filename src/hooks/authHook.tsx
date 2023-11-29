@@ -1,5 +1,5 @@
 import { AuthContext } from "../contexts/authContext"
-import { IAuthContextData } from "../interfaces/user.interface"
+import { IAuthContextData } from "../interface/user.interface"
 import { useContext } from "react"
 
 function useAuth(): IAuthContextData {
