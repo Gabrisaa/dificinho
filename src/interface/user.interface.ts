@@ -15,6 +15,7 @@ export interface IResponseUser {
     expires_at: string
   }
 }
+
 export interface IAuthContextData {
   signIn(credentials: IUser): Promise<void>
   signOut(): Promise<void>

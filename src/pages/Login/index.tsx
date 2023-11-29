@@ -1,6 +1,6 @@
 import { FormEvent, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { FaKey } from "react-icons/";
+import { FaKey } from "react-icons/fa";
 import { BsFillPersonFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { toast } from "react-toastify";
@@ -10,7 +10,7 @@ import { IErrorResponse, IUser } from "../../interface/user.interface";
 import { AxiosError } from "axios";
 import { apiUser } from "../../services/data";
 
-export function Cadastrar() {
+export function Login() {
   const navigate = useNavigate();
   const [formData, setFormData] = useState<IUser>({
     name: '',
