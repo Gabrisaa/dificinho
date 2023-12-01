@@ -64,7 +64,7 @@ div {
     font-size: 18px;
     border-radius: 200px;
     height: 105%;
-    width: 100%;
+    width: 2rem;
     align-items: center;
     display: flex;
 }
@@ -95,7 +95,7 @@ div {
     font-size: 18px;
     border-radius: 200px;
     height: 105%;
-    width: 50%;
+    width: 10rem;
     align-items: center;
     display: flex;
 }
